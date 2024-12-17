@@ -30,3 +30,16 @@ Generally speaking, there are four steps:
 2. **Prepare Your Data:** Clean and preprocess your data. For text, this can include tokenization, removing “stopwords,” and possibly lemmatization (reducing words to their base form). For images, this might include resizing, normalizing pixel values, etc.
 3. **Train or Use Pre-trained Models:** You can train your model on your dataset or use a pre-trained model. Training from scratch requires a significant amount of data, time, and computational resources. Pre-trained models are a quick way to get started and can be fine-tuned (or augmented) with your specific dataset.
 4. **Generate Embeddings:** Once your model is ready, feed your data through it (via SDK, REST, etc.) to generate embeddings. Each item will be transformed into a vector that represents its semantic meaning. Typically, the embeddings are stored in a database, sometimes right alongside the original data.
+
+# [What is a Large Language Model (LLM)?](https://www.couchbase.com/blog/large-language-models-explained/)
+What is a Large Language Model (LLM)?
+A large language model (LLM) is an artificial intelligence (AI) algorithm trained on large amounts of text data to create natural language outputs. These models have become increasingly popular because they can generate text that sounds just as legitimate as a human would write.
+
+# How Do Large Language Models Work and How Are They Trained?
+Large language models are powerful tools that have transformed natural language processing, enabling computers to generate human-like text and provide valuable responses. Let’s explore the key aspects of how these models operate:
+
+1. **Pre-training:** Language models are initially pre-trained on a massive amount of text data from the internet. During pre-training, the model learns to predict the next word in a sentence by analyzing the context of surrounding words. This process helps the model learn grammar, facts, and some level of reasoning.
+2. **Fine-tuning:** After pre-training, the model is fine-tuned on more specific tasks using task-specific datasets. Fine-tuning involves further training the model on a narrower dataset, which can be tailored to tasks like question answering, translation, summarization, and sentiment analysis. This step helps the model specialize in the desired task and improves performance.
+3. **Attention Mechanism:** The key component of large language models is the attention mechanism within the transformer architecture. Attention allows the model to understand the relative importance of each word in a sentence when generating or predicting words. It helps the model capture long-range dependencies and context while processing text.
+4. **Inference:** Once trained, the model can be used for inference. Given a prompt or input text, the model generates a response by predicting the most probable words based on the learned patterns and context from its training. 
+
