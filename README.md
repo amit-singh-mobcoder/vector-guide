@@ -41,5 +41,26 @@ Large language models are powerful tools that have transformed natural language 
 1. **Pre-training:** Language models are initially pre-trained on a massive amount of text data from the internet. During pre-training, the model learns to predict the next word in a sentence by analyzing the context of surrounding words. This process helps the model learn grammar, facts, and some level of reasoning.
 2. **Fine-tuning:** After pre-training, the model is fine-tuned on more specific tasks using task-specific datasets. Fine-tuning involves further training the model on a narrower dataset, which can be tailored to tasks like question answering, translation, summarization, and sentiment analysis. This step helps the model specialize in the desired task and improves performance.
 3. **Attention Mechanism:** The key component of large language models is the attention mechanism within the transformer architecture. Attention allows the model to understand the relative importance of each word in a sentence when generating or predicting words. It helps the model capture long-range dependencies and context while processing text.
-4. **Inference:** Once trained, the model can be used for inference. Given a prompt or input text, the model generates a response by predicting the most probable words based on the learned patterns and context from its training. 
+4. **Inference:** Once trained, the model can be used for inference. Given a prompt or input text, the model generates a response by predicting the most probable words based on the learned patterns and context from its training.
+
+# [Token Documentation](https://gptforwork.com/guides/openai-gpt3-tokens)
+Tokens can be thought of as pieces of words. Before the API processes the request, the input is broken down into tokens. These tokens are not cut up exactly where the words start or end - tokens can include trailing spaces and even sub-words.
+
+- [GPT Tokenizer Playground](https://gptforwork.com/tools/tokenizer)
+
+# Vector Database
+A vector database is a type of database optimized to store and query data represented as vectors, which are mathematical arrays of numbers. It is commonly used for tasks like similarity search, where data such as text, images, or audio is converted into numerical vectors, allowing for fast and efficient retrieval based on their proximity or similarity in a multi-dimensional space.
+
+[![Watch the video](https://img.youtube.com/vi/dN0lsF2cvm4/maxresdefault.jpg)](https://www.youtube.com/watch?v=dN0lsF2cvm4)
+
+## Vector indexing
+Vector indexing is the process of organizing and storing vectors in a way that makes it fast and efficient to search for similar vectors. It involves creating a data structure that allows quick retrieval of vectors that are close to a given query vector, often based on similarity or distance measures like cosine similarity or Euclidean distance.
+
+- [ Watch this ](https://www.youtube.com/watch?v=dN0lsF2cvm4)
+- Common examples
+  1. Pinecone
+  2. Pg vector
+  3. chroma db etc.
+
+ 
 
